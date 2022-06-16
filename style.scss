@@ -143,7 +143,7 @@ header {
   margin-right: 50px;
 }
 
-// mulch-deco
+// -----mulch-deco-----
 .mulch-deco{
   width: 100%;
   height: auto;            
@@ -163,10 +163,19 @@ header {
   box-shadow: 15px 15px 0px 0 #FFF835;
 }
 
+// -----Service-----
 
 
 
-
+// -----box-shadow2-----
+.card-skin {
+  position: relative;
+  box-shadow: 15px 15px 0px 0 #9067E9;
+}
+.card-skin2{
+  position: relative;
+  box-shadow: 15px 15px 0px 0 #9067E9;
+}
 
 
 // -----footer-----
@@ -191,6 +200,9 @@ footer {
 
 
 
+
+
+
 // レスポンシブ対応
 @media screen and (max-width: 767px) {
   header {
@@ -200,8 +212,7 @@ footer {
     width: 100%;
   }
 
-
-
+}
 
 
 
