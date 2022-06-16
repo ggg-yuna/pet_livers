@@ -2,7 +2,6 @@
   position: relative;
   padding-bottom: 60px;
   box-sizing: border-box;
-  min-height: 100vh;
 }
 
 header {
@@ -13,6 +12,7 @@ header {
 
 .header-right ul {
   display: flex;
+  justify-content: end;
 }
 .header-right li {
   margin-left: 25px;
@@ -29,7 +29,7 @@ header {
   height: 224px;
   left: 81px;
   top: 120px;
-  background-image: url(./img/kv_01_pc.jpg);
+  background-image: url(../../img/kv_01_pc.jpg);
   background-color: pink;
 }
 
@@ -79,7 +79,7 @@ header {
 }
 
 .main-title {
-  font-size: 125.45px;
+  font-size: 45px;
   font-weight: 400;
   color: black;
 }
