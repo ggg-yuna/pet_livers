@@ -135,6 +135,10 @@ header {
   width: 100%;
   height: auto;
   background-image: url(./img/deco_01.png), url(./img/deco_02.png), url(./img/deco_03.png), url(./img/deco_04.png), url(./img/deco_05.png), url(./img/deco_06.png), url(./img/deco_07.png), url(./img/deco_08.png), url(./img/deco_09.png), url(./img/deco_10.png);
+<<<<<<< HEAD
+=======
+
+>>>>>>> 2d7e8e0bf32a42193fb2478e091d074dc148d75e
   background-repeat: no-repeat,no-repeat;
   background-size: 20% , 5%;
   background-position: bottom right,top left;
@@ -168,4 +172,8 @@ header {
     width: 100%;
   }
 }
+<<<<<<< HEAD
 /*# sourceMappingURL=style.css.map */
+=======
+/*# sourceMappingURL=style.css.map */
+>>>>>>> 2d7e8e0bf32a42193fb2478e091d074dc148d75e
