@@ -29,7 +29,7 @@ header {
   height: 224px;
   left: 81px;
   top: 120px;
-  background-image: url(./img/kv03.jpg);
+  background-image: url(./img/kv_01_pc.jpg);
   background-color: pink;
 }
 
@@ -39,7 +39,7 @@ header {
   height: 638px;
   left: 81px;
   top: 358px;
-  background: url(./img/kv_02_pc.jpg);
+  background-image: url(./img/kv_02_pc.jpg);
   background-color: aquamarine;
 }
 
@@ -49,7 +49,7 @@ header {
   height: 638px;
   left: 980px;
   top: 105px;
-  background: url(./img/kv01.jpg);
+  background-image: url(./img/kv_01_pc.jpg);
   background-color: blueviolet;
 }
 
@@ -59,27 +59,123 @@ header {
   height: 224px;
   left: 980px;
   top: 755px;
-  background: url(./img/kv_04.jpg);
+  background-image: url(./);
   background-color: brown;
 }
 
 .top-kv {
-  background: url(./img/kv_pc.png);
-  background: center;
-  background-color: yellow;
+  background-image: url(./);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
 }
 
-footer {
-  margin: 200px auto 0;
-  color: white;
-  background-color: black;
+.title-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.main-title {
+  font-size: 125.45px;
   font-weight: 400;
-  font-size: 12px;
-  line-height: 14px;
-  border: 10px solid black;
+  color: black;
+}
+
+.main-title p {
+  font-size: 48px;
+  font-weight: 400;
+  color: black;
+}
+
+.main-subtitle {
+  font-size: 58px;
+  font-weight: 400;
+  color: black;
+}
+
+.container-wrap {
+  max-width: 1170px;
+  margin: 100px auto 0;
+  background-image: url(./img/);
+}
+
+.subtitle {
+  font-size: 50px;
+  font-weight: 900;
+  color: blackr;
   text-align: center;
 }
 
+.container {
+  display: flex;
+  align-items: center;
+  text-align: start;
+  margin-top: 60px;
+}
+
+#About .container {
+  flex-direction: row-reverse;
+}
+
+.description {
+  margin-left: 50px;
+}
+
+#About .description {
+  margin-left: auto;
+  margin-right: 50px;
+}
+
+.mulch-deco {
+  width: 100%;
+  height: auto;
+  background-image: url(./img/deco_01.png), url(./img/deco_02.png), url(./img/deco_03.png), url(./img/deco_04.png), url(./img/deco_05.png), url(./img/deco_06.png), url(./img/deco_07.png), url(./img/deco_08.png), url(./img/deco_09.png), url(./img/deco_10.png);
+  background-repeat: no-repeat, no-repeat;
+  background-size: 20%, 5%;
+  background-position: bottom right, top left;
+}
+
+.card-skin {
+  position: relative;
+  box-shadow: 15px 15px 0px 0 #F9C83B;
+}
+
+.card-skin2 {
+  position: relative;
+  box-shadow: 15px 15px 0px 0 #FFF835;
+}
+
+.card-skin {
+  position: relative;
+  box-shadow: 15px 15px 0px 0 #9067E9;
+}
+
+.card-skin2 {
+  position: relative;
+  box-shadow: 15px 15px 0px 0 #9067E9;
+}
+
+footer {
+  position: absolute;
+  left: 1.45%;
+  right: 1.64%;
+  top: 99.3%;
+  bottom: 0.15%;
+  background: black;
+  border: 1.43px solid black;
+}
+
+@media screen and (max-width: 767px) {
+  header {
+    position: fixed;
+    width: 100%;
+    overflow: hidden;
+    width: 100%;
+  }
+}
 h1 {
   font-size: 40px;
 }/*# sourceMappingURL=style.css.map */
