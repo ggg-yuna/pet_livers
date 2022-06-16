@@ -180,23 +180,6 @@ header {
 }
 
 
-// -----footer-----
-footer {
-  position: absolute;
-  left: 1.45%;
-  right: 1.64%;
-  top: 99.3%;
-  bottom: 0.15%;
-  background: black;
-  border: 1.43px solid black;
-}
-
-
-
-
-
-
-
 
 
 
@@ -225,4 +208,4 @@ footer {
 
 
 
-@import "./fujioka";
+@import "../../fujioka";
