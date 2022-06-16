@@ -46,7 +46,7 @@ header {
   height: 638px;
   left: 81px;
   top: 358px;
-  background-image: url(./);
+  background-image: url(./img/kv_02_pc.jpg);
   background-color: aquamarine;
 }
 
@@ -56,7 +56,7 @@ header {
   height: 638px;
   left: 980px;
   top: 105px;
-  background-image: url(./);
+  background-image: url(./img/kv_01_pc.jpg);
   background-color: blueviolet;
 }
 
@@ -109,6 +109,64 @@ header {
 
 
 
+// -----About-----
+.container-wrap {
+  max-width: 1170px;
+  margin: 100px auto 0;
+  background-image: url(./img/);
+}
+
+.subtitle {
+  font-size: 50px;
+  font-weight: 900;
+  color: blackr;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  text-align: start;
+  margin-top: 60px;
+}
+
+#About .container {
+  flex-direction: row-reverse;
+}
+
+.description {
+  margin-left: 50px;
+}
+
+#About .description {
+  margin-left: auto;
+  margin-right: 50px;
+}
+
+// mulch-deco
+.mulch-deco{
+  width: 100%;
+  height: auto;            
+  background-image:url(./img/deco_01.png),url(./img/deco_02.png),url(./img/deco_03.png),url(./img/deco_04.png),url(./img/deco_05.png),url(./img/deco_06.png),url(./img/deco_07.png),url(./img/deco_08.png),url(./img/deco_09.png),url(./img/deco_10.png);
+  background-repeat: no-repeat,no-repeat;
+  background-size: 20% , 5%;
+  background-position: bottom right,top left;
+}
+
+// -----box-shadow-----
+.card-skin {
+  position: relative;
+  box-shadow: 15px 15px 0px 0 #F9C83B;
+}
+.card-skin2{
+  position: relative;
+  box-shadow: 15px 15px 0px 0 #FFF835;
+}
+
+
+
+
+
 
 
 // -----footer-----
@@ -119,8 +177,12 @@ footer {
   top: 99.3%;
   bottom: 0.15%;
   background: black;
-  border: 1.43px solid black‹›;
+  border: 1.43px solid black;
 }
+
+
+
+
 
 
 
@@ -150,5 +212,4 @@ footer {
 
 
 
-
-  @import "./fujioka";
+@import "./fujioka";
