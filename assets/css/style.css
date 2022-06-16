@@ -81,13 +81,7 @@ header {
 }
 
 .main-title {
-<<<<<<< HEAD
   font-size: 45px;
-=======
-
-  font-size: 45px;
-
->>>>>>> 37b3be25ba23622b3fba8fae5147c8df54aea85d
   font-weight: 400;
   color: black;
 }
@@ -141,18 +135,10 @@ header {
   width: 100%;
   height: auto;
   background-image: url(./img/deco_01.png), url(./img/deco_02.png), url(./img/deco_03.png), url(./img/deco_04.png), url(./img/deco_05.png), url(./img/deco_06.png), url(./img/deco_07.png), url(./img/deco_08.png), url(./img/deco_09.png), url(./img/deco_10.png);
-<<<<<<< HEAD
+
   background-repeat: no-repeat,no-repeat;
   background-size: 20% , 5%;
   background-position: bottom right,top left;
-=======
-
-
-  background-repeat: no-repeat, no-repeat;
-  background-size: 20%, 5%;
-  background-position: bottom right, top left;
-
->>>>>>> 37b3be25ba23622b3fba8fae5147c8df54aea85d
 }
 
 .card-skin {
@@ -193,12 +179,4 @@ footer {
     width: 100%;
   }
 }
-<<<<<<< HEAD
 /*# sourceMappingURL=style.css.map */
-=======
-
-h1 {
-  font-size: 40px;
-}/*# sourceMappingURL=style.css.map */
-
->>>>>>> 37b3be25ba23622b3fba8fae5147c8df54aea85d
