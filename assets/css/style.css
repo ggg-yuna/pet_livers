@@ -66,6 +66,7 @@ header {
 .top-kv {
   background: url(./img/kv_pc.png);
   background: center;
+  background-color: yellow;
 }
 
 footer {
