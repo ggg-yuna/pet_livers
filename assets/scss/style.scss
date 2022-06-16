@@ -27,6 +27,8 @@ header {
   a {
     text-decoration: none;
     color: black;
+    
+
   }
 }
 
@@ -73,8 +75,9 @@ header {
 }
 
 .top-kv {
-  background-image: url(./);
+  background-image: url(../../img/kv_pc.png);
   background-position: center;
+ 
   background-size: cover;
   height: 100vh;
 }
@@ -171,11 +174,11 @@ header {
 // -----box-shadow2-----
 .card-skin {
   position: relative;
-  box-shadow: 15px 15px 0px 0 #9067E9;
+  box-shadow: 15px 15px 0px 0 #F9C83B;
 }
 .card-skin2{
   position: relative;
-  box-shadow: 15px 15px 0px 0 #9067E9;
+  box-shadow: 15px 15px 0px 0 #FFF835;
 }
 
 

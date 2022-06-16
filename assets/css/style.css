@@ -14,12 +14,10 @@ header {
   display: flex;
   justify-content: end;
 }
-
 .header-right li {
   margin-left: 25px;
   font-size: 20px;
 }
-
 .header-right a {
   text-decoration: none;
   color: black;
@@ -31,8 +29,7 @@ header {
   height: 224px;
   left: 81px;
   top: 120px;
-  background-image: url(../../img/kv_01_pc.jpg);
-  background-color: pink;
+  background-image: url(../../img/kv_03_pc.jpg);
 }
 
 .box-img1 {
@@ -42,7 +39,6 @@ header {
   left: 81px;
   top: 358px;
   background-image: url(../../img/kv_02_pc.jpg);
-  background-color: aquamarine;
 }
 
 .box-img2 {
@@ -51,8 +47,7 @@ header {
   height: 638px;
   left: 980px;
   top: 105px;
-  background-image: url(./img/kv_01_pc.jpg);
-  background-color: blueviolet;
+  background-image: url(../../img/kv_01_pc.jpg);
 }
 
 .box-img3 {
@@ -61,12 +56,12 @@ header {
   height: 224px;
   left: 980px;
   top: 755px;
-  background-image: url(./);
+  background-image: url(../../img/kv_04_pc.jpg);
   background-color: brown;
 }
 
 .top-kv {
-  background-image: url(./);
+  background-image: url(../../img/kv_pc.png);
   background-position: center;
   background-size: cover;
   height: 100vh;
@@ -135,13 +130,9 @@ header {
   width: 100%;
   height: auto;
   background-image: url(./img/deco_01.png), url(./img/deco_02.png), url(./img/deco_03.png), url(./img/deco_04.png), url(./img/deco_05.png), url(./img/deco_06.png), url(./img/deco_07.png), url(./img/deco_08.png), url(./img/deco_09.png), url(./img/deco_10.png);
-<<<<<<< HEAD
-=======
-
->>>>>>> 2d7e8e0bf32a42193fb2478e091d074dc148d75e
-  background-repeat: no-repeat,no-repeat;
-  background-size: 20% , 5%;
-  background-position: bottom right,top left;
+  background-repeat: no-repeat, no-repeat;
+  background-size: 20%, 5%;
+  background-position: bottom right, top left;
 }
 
 .card-skin {
@@ -156,12 +147,12 @@ header {
 
 .card-skin {
   position: relative;
-  box-shadow: 15px 15px 0px 0 #9067E9;
+  box-shadow: 15px 15px 0px 0 #F9C83B;
 }
 
 .card-skin2 {
   position: relative;
-  box-shadow: 15px 15px 0px 0 #9067E9;
+  box-shadow: 15px 15px 0px 0 #FFF835;
 }
 
 @media screen and (max-width: 767px) {
@@ -171,9 +162,4 @@ header {
     overflow: hidden;
     width: 100%;
   }
-}
-<<<<<<< HEAD
-/*# sourceMappingURL=style.css.map */
-=======
-/*# sourceMappingURL=style.css.map */
->>>>>>> 2d7e8e0bf32a42193fb2478e091d074dc148d75e
+}/*# sourceMappingURL=style.css.map */
