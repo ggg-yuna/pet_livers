@@ -14,10 +14,12 @@ header {
   display: flex;
   justify-content: end;
 }
+
 .header-right li {
   margin-left: 25px;
   font-size: 20px;
 }
+
 .header-right a {
   text-decoration: none;
   color: black;
@@ -79,7 +81,11 @@ header {
 }
 
 .main-title {
+<<<<<<< HEAD
+  font-size: 125.45px;
+=======
   font-size: 45px;
+>>>>>>> 647907467ede1404e9174e3d8852988464f29faf
   font-weight: 400;
   color: black;
 }
@@ -133,9 +139,15 @@ header {
   width: 100%;
   height: auto;
   background-image: url(./img/deco_01.png), url(./img/deco_02.png), url(./img/deco_03.png), url(./img/deco_04.png), url(./img/deco_05.png), url(./img/deco_06.png), url(./img/deco_07.png), url(./img/deco_08.png), url(./img/deco_09.png), url(./img/deco_10.png);
+<<<<<<< HEAD
+  background-repeat: no-repeat,no-repeat;
+  background-size: 20% , 5%;
+  background-position: bottom right,top left;
+=======
   background-repeat: no-repeat, no-repeat;
   background-size: 20%, 5%;
   background-position: bottom right, top left;
+>>>>>>> 647907467ede1404e9174e3d8852988464f29faf
 }
 
 .card-skin {
@@ -176,6 +188,10 @@ footer {
     width: 100%;
   }
 }
+<<<<<<< HEAD
+/*# sourceMappingURL=style.css.map */
+=======
 h1 {
   font-size: 40px;
 }/*# sourceMappingURL=style.css.map */
+>>>>>>> 647907467ede1404e9174e3d8852988464f29faf
