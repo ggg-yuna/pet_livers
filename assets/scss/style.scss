@@ -1,13 +1,5 @@
-.container {
-  position: relative;
-  padding-bottom: 60px;
-  box-sizing: border-box;
-  
-}
-
-// -----header-----
+// ----- header-right nav -----
 header {
-  padding: 15px;
   display: flex;
   justify-content: flex-end;
 }
@@ -16,113 +8,145 @@ header {
   ul {
     display: flex;
     justify-content: end;
-  
+    margin-top: -90px;
+
   }
 
   li {
-    margin-left: 25px;
-    font-size: 20px;
+    margin-left: 43px;
+    padding: 0;
+    font-size: 28px;
   }
 
   a {
     text-decoration: none;
     color: black;
-    
+
 
   }
 }
 
 
-// -----kv-----
+// ----- kv -----
+// .top-kv {
+//   background-image: url(../../img/kv_pc.png);
+//   background-position:center center;  
+//   background-size: 100%;
+//   width:auto;
+//   height: 865px;
+
+// }
+
 .box-img {
   position: absolute;
   width: 460px;
-  height: 224px;
-  left: 81px;
-  top: 120px;
+  height: 220px;
+  top: 95px;
+  left: 40px;
+  bottom: 10px;
   background-image: url(../../img/kv_03_pc.jpg);
-  
+  background-size: cover;
+
 }
 
 .box-img1 {
   position: absolute;
   width: 460px;
   height: 638px;
-  left: 81px;
-  top: 358px;
+  left: 40px;
+  top: 326px;
   background-image: url(../../img/kv_02_pc.jpg);
+  background-size: cover;
+
 }
 
 .box-img2 {
   position: absolute;
-  width: 460px;
+  width: 420px;
   height: 638px;
-  left: 980px;
-  top: 105px;
+  right: 40px;
+  top: 95px;
   background-image: url(../../img/kv_01_pc.jpg);
- 
+  background-repeat: no-repeat;
+  background-size: contain;
+
 }
 
 
 .box-img3 {
   position: absolute;
-  width: 460px;
+  width: 420px;
   height: 224px;
-  left: 980px;
-  top: 755px;
+  right: 40px;
+  top: 741px;
   background-image: url(../../img/kv_04_pc.jpg);
-  background-color: brown;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
-.top-kv {
-  background-image: url(../../img/kv_pc.png);
-  background-position: center;
- 
-  background-size: cover;
-  height: 100vh;
+.main-title {
+  font-size: 58px;
+  font-weight: bold;
+  color: black;
+  position: absolute;
+  top: 420px;
+  left: 570px;
 }
 
 
 .title-wrap {
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
   height: 100vh;
-}
-
-.main-title {
-  font-size: 45px;
-  font-weight: 400;
-  color: black;
-}
-
-.main-title {
   p {
-    font-size: 48px;
-    font-weight: 400;
-    color: black;
+    font-size: 30px;
+    position: absolute;
+    top: 80px;
+    left: 570px;
   }
 }
 
-.main-subtitle {
-  font-size: 58px;
-  font-weight: 400;
-  color: black;
+
+.title-wrap2 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  p {
+    font-size: 30px;
+    position: absolute;
+    top: 100px;
+    left: 570px;
+  }
 }
 
 
+.title-wrap3 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  p {
+    font-size: 25px;
+    position: absolute;
+    top: 50px;
+    left: px;
+  }
+}
 
-// -----About-----
+
+// ----- About -----
 .container-wrap {
   max-width: 1170px;
   margin: 100px auto 0;
-  background-image: url(./img/);
 }
 
-.subtitle {
-  font-size: 50px;
-  font-weight: 900;
+#About {
+  font-size: 20px;
   color: blackr;
   text-align: center;
 }
@@ -131,7 +155,7 @@ header {
   display: flex;
   align-items: center;
   text-align: start;
-  margin-top: 60px;
+  margin-top: 20px;
 }
 
 #About .container {
@@ -139,47 +163,97 @@ header {
 }
 
 .description {
-  margin-left: 50px;
+  margin-left: 20px;
 }
 
 #About .description {
   margin-left: auto;
-  margin-right: 50px;
+  margin-right: 100px;
 }
 
-// -----mulch-deco-----
-.mulch-deco{
+// ----- About mulch-deco -----
+.mulch-deco {
   width: 100%;
-  height: auto;            
-  background-image:url(./img/deco_01.png),url(./img/deco_02.png),url(./img/deco_03.png),url(./img/deco_04.png),url(./img/deco_05.png),url(./img/deco_06.png),url(./img/deco_07.png),url(./img/deco_08.png),url(./img/deco_09.png),url(./img/deco_10.png);
-  background-repeat: no-repeat,no-repeat;
-  background-size: 20% , 5%;
-  background-position: bottom right,top left;
+  height: auto;
+  background-image: url(../../img/deco_01.png), url(../../img/deco_02.png), url(../../img/deco_03.png), url(../../img/deco_04.png), url(../../img/deco_05.png), url(../../img/deco_06.png), url(../../img/deco_07.png), url(../../img/deco_08.png), url(../../img/deco_09.png), url(../../img/deco_10.png);
+  background-repeat: no-repeat, no-repeat;
+  background-size: 20%, 5%;
+  background-position: bottom right, top left;
 }
 
-// -----box-shadow-----
+// ----- box-shadow -----
 .card-skin {
   position: relative;
-  box-shadow: 15px 15px 0px 0 #F9C83B;
+  box-shadow: 15px 15px 0 #F9C83B;
 }
-.card-skin2{
+
+.card-skin2 {
   position: relative;
-  box-shadow: 15px 15px 0px 0 #FFF835;
+  box-shadow: -15px 15px 0 #FFF835;
 }
 
-// -----Service-----
+// ------- Service -------
+
+.container {
+  padding: 100px 0px 0px;
+  margin: 0px 70px;
+}
+
+.container-wrap {
+  max-width: 1170px;
+  display: block;
+  padding: 50px 0px;
+  margin-left: 50px;
+  margin-top: 40px;
+}
+
+
+h1 {
+  font-size: 40px;
+  font-weight: 900;
+  text-align: center;
+}
+
+
+p {
+  margin-top: 5px;
+}
+
+.about-right {
+  display: flex;
+}
+
+.plan {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 70px;
+}
+
+.box {
+  width: 400px;
+  height: 600px;
+  border: solid 1px black;
+}
+
+
+.description {
+  text-align: center;
+  line-height: 1;
+  margin: 0px 10px;
+  padding-top: 10px;
+}
 
 
 
-// -----box-shadow2-----
-.card-skin {
+
+
+// ----- box-shadow -----
+.card-skin3 {
   position: relative;
-  box-shadow: 15px 15px 0px 0 #F9C83B;
+  box-shadow: 15px 15px 0px 0 #9067E9;
 }
-.card-skin2{
-  position: relative;
-  box-shadow: 15px 15px 0px 0 #FFF835;
-}
+
+
 
 
 
