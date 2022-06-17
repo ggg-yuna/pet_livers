@@ -256,10 +256,13 @@
 
 
 // ----自分で作成
+*{
+  border: solid gold 1px;
+}
+
 .pet-livers{
   // max-width: 1170px;
-
- margin: 0 auto; 
+   margin: 0 auto; 
 
   h1{
     font-size: 80px;
@@ -268,21 +271,28 @@
 
   .container-livers{
     // width: 1050px;
-    height: 1350px;
-    margin: 61px 0x 0px 0px;
-    background-color: black;
+    height: 1000px;
+
+    background-color: gray;
 
    .box-livers1{
      display: flex;
+     justify-content: space-around;
+     padding-left: 10.6%;
+     padding-right: 10.8%;
    } 
 
    .box-livers2{
      display: flex;
+     justify-content: space-around;
+     padding-left: 10.6%;
+     padding-right: 10.8%;
    } 
 
    .livers{
-     width: 382px;
-     height: 569px;
+    width : 19%;
+    height :28.4%;
+    border: solid pink 1px;
    }
   }
 
