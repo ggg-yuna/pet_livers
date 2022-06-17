@@ -8,13 +8,11 @@ header {
   justify-content: end;
   margin-top: -90px;
 }
-
 .header-right li {
   margin-left: 43px;
   padding: 0;
   font-size: 28px;
 }
-
 .header-right a {
   text-decoration: none;
   color: black;
@@ -148,13 +146,11 @@ header {
 .mulch-deco {
   width: 100%;
   height: auto;
-
   background-image: url(../../img/deco_01.png), url(../../img/deco_02.png), url(../../img/deco_03.png), url(../../img/deco_04.png), url(../../img/deco_05.png), url(../../img/deco_06.png), url(../../img/deco_07.png), url(../../img/deco_08.png), url(../../img/deco_09.png), url(../../img/deco_10.png);
   background-repeat: no-repeat, no-repeat;
   background-size: 20%, 5%;
   background-position: bottom right, top left;
 }
-  
 
 .card-skin {
   position: relative;
@@ -169,6 +165,7 @@ header {
 .container {
   padding: 100px 0px 0px;
   margin: 0px 70px;
+  text-align: center;
 }
 
 .container-wrap {
@@ -224,33 +221,25 @@ p {
     overflow: hidden;
     width: 100%;
   }
-
-
-
-
+}
 .pet-livers {
   margin: 0 auto;
 }
-
 .pet-livers h1 {
   font-size: 80px;
   text-align: center;
 }
-
 .pet-livers .container-livers {
   height: 1350px;
   margin: 61px 0x 0px 0px;
   background-color: black;
 }
-
 .pet-livers .container-livers .box-livers1 {
   display: flex;
 }
-
 .pet-livers .container-livers .box-livers2 {
   display: flex;
 }
-
 .pet-livers .container-livers .livers {
   width: 382px;
   height: 569px;
@@ -260,15 +249,11 @@ p {
   font-size: 80px;
   text-align: center;
 }
-
 .sponser #animal-rights {
   width: 800px;
   height: 649px;
 }
-
 .sponser h5 {
   font-size: 40px;
   text-align: center;
-}
-}
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
