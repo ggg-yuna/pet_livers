@@ -242,27 +242,28 @@ p {
 }
 
 .pet-livers .container-livers {
-  height: 1000px;
   background-color: gray;
 }
 
 .pet-livers .container-livers .box-livers1 {
   display: flex;
   justify-content: space-around;
+  padding-top: 97px;
   padding-left: 10.6%;
   padding-right: 10.8%;
 }
 
 .pet-livers .container-livers .box-livers2 {
+  margin-top: 21.93px;
   display: flex;
   justify-content: space-around;
   padding-left: 10.6%;
   padding-right: 10.8%;
+  padding-bottom: 94.2px;
 }
 
 .pet-livers .container-livers .livers {
-  width: 19%;
-  height: 28.4%;
+  width: 24.1%;
   border: solid pink 1px;
 }
 
