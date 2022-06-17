@@ -8,13 +8,11 @@ header {
   justify-content: end;
   margin-top: -90px;
 }
-
 .header-right li {
   margin-left: 43px;
   padding: 0;
   font-size: 28px;
 }
-
 .header-right a {
   text-decoration: none;
   color: black;
@@ -170,6 +168,7 @@ header {
 .container {
   padding: 100px 0px 0px;
   margin: 0px 70px;
+  text-align: center;
 }
 
 .container-wrap {
@@ -226,30 +225,28 @@ p {
     width: 100%;
   }
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> bda6ba6895d86fbaad3c6f498229f85df0ffeb3d
 .pet-livers {
   margin: 0 auto;
 }
-
 .pet-livers h1 {
   font-size: 80px;
   text-align: center;
 }
-
 .pet-livers .container-livers {
   height: 1350px;
   margin: 61px 0x 0px 0px;
   background-color: black;
 }
-
 .pet-livers .container-livers .box-livers1 {
   display: flex;
 }
-
 .pet-livers .container-livers .box-livers2 {
   display: flex;
 }
-
 .pet-livers .container-livers .livers {
   width: 382px;
   height: 569px;
@@ -263,13 +260,15 @@ p {
   font-size: 80px;
   text-align: center;
 }
-
 .sponser #animal-rights {
   justify-items: center;
 }
-
 .sponser h5 {
   font-size: 40px;
   text-align: center;
+<<<<<<< HEAD
 }
 /*# sourceMappingURL=style.css.map */
+=======
+}/*# sourceMappingURL=style.css.map */
+>>>>>>> bda6ba6895d86fbaad3c6f498229f85df0ffeb3d
