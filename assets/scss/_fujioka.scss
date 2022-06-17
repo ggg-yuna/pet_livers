@@ -265,7 +265,7 @@
    margin: 0 auto; 
 
   h1{
-    font-size: 80px;
+    font-size: 50px;
     text-align: center;
   }
 
@@ -306,33 +306,124 @@
 // sponser
 .sponser{
   width: 1170px;
+  margin: 0 auto;
+
 
   h1{
-    font-size: 80px;
+    font-size: 50px;
   }
 
 .sponser1{
   margin: 0 auto;
+  // 279/1501
+  padding-left: 19.8%;
+  // 293/1501
+  padding-right: 19.5%;
 
   #animal-rights{
+    // 1410/1501
     width: 94%;
     margin: 0 auto;
 }
   }
 
 .sponser2{
-  margin: 0 auto;
+  // margin: 0 auto;
+  // padding-top: 83px;
+  // 739/1501
+  padding-left: 49.2%;
+  // 681/1501
+  padding-right: 45.3%;
+  margin-top: 83px;
 
  #animal-foundation{
+  //  580/1501
    width: 38.7%;
+  //  margin: 0 auto;
  }
 }
 
-
   h5{
-    font-size: 40px;
+    font-size: 26px;
     text-align: center;
   }
 
   // sponser
+}
+
+
+// customer-voice
+.customer-voice{
+  margin: 0 auto;
+  width: 1170px;
+
+.container-customer-voice{
+  display: flex;
+
+.voice-left{
+  // // 293/2000
+  // padding-left: 14.7%;
+  // // 1068/2000
+  // padding-right: 53.4%;
+
+  img{
+    // 639/2000
+    // width: 54.6%;
+    width: 400px;
+    box-shadow: -15px 15px 0 #E7AFC3;;
+  }
+}
+
+.voice-right{
+  width: 600px;
+  margin-top: 130px;
+  margin-left: 135px;
+// 1067/2000
+// padding-left: 53.4%;
+
+h3{
+  font-size: 20px;
+}
+
+p{
+width: 350px;
+}
+}
+
+
+}
+}
+
+// company
+.company{
+  width:1170px;
+  margin: 0 auto;
+
+ .container-company{
+   display: flex;
+
+   h2{
+   font-size: 36px;
+   }
+
+   h3{
+     font-size: 20px;
+   }
+ }
+
+.company-left{
+// 224/1170
+padding-left: 19.1%;
+
+width:550px
+}
+
+.company-right{
+  // 209/1170
+  // padding-right: 17.8%;
+
+  iframe{
+    width:550px
+  }
+}
 }

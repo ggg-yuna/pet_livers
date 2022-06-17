@@ -285,7 +285,7 @@ button {
 }
 
 .pet-livers h1 {
-  font-size: 80px;
+  font-size: 50px;
   text-align: center;
 }
 
@@ -317,14 +317,17 @@ button {
 
 .sponser {
   width: 1170px;
+  margin: 0 auto;
 }
 
 .sponser h1 {
-  font-size: 80px;
+  font-size: 50px;
 }
 
 .sponser .sponser1 {
   margin: 0 auto;
+  padding-left: 19.8%;
+  padding-right: 19.5%;
 }
 
 .sponser .sponser1 #animal-rights {
@@ -333,7 +336,9 @@ button {
 }
 
 .sponser .sponser2 {
-  margin: 0 auto;
+  padding-left: 49.2%;
+  padding-right: 45.3%;
+  margin-top: 83px;
 }
 
 .sponser .sponser2 #animal-foundation {
@@ -341,7 +346,61 @@ button {
 }
 
 .sponser h5 {
-  font-size: 40px;
+  font-size: 26px;
   text-align: center;
+}
+
+.customer-voice {
+  margin: 0 auto;
+  width: 1170px;
+}
+
+.customer-voice .container-customer-voice {
+  display: flex;
+}
+
+.customer-voice .container-customer-voice .voice-left img {
+  width: 400px;
+  box-shadow: -15px 15px 0 #E7AFC3;
+}
+
+.customer-voice .container-customer-voice .voice-right {
+  width: 600px;
+  margin-top: 130px;
+  margin-left: 135px;
+}
+
+.customer-voice .container-customer-voice .voice-right h3 {
+  font-size: 20px;
+}
+
+.customer-voice .container-customer-voice .voice-right p {
+  width: 350px;
+}
+
+.company {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.company .container-company {
+  display: flex;
+}
+
+.company .container-company h2 {
+  font-size: 36px;
+}
+
+.company .container-company h3 {
+  font-size: 20px;
+}
+
+.company .company-left {
+  padding-left: 19.1%;
+  width: 550px;
+}
+
+.company .company-right iframe {
+  width: 550px;
 }
 /*# sourceMappingURL=style.css.map */
