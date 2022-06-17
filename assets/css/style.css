@@ -77,7 +77,6 @@ header {
   align-items: center;
   height: 100vh;
 }
-
 .title-wrap p {
   font-size: 30px;
   position: absolute;
@@ -92,7 +91,6 @@ header {
   align-items: center;
   height: 100vh;
 }
-
 .title-wrap2 p {
   font-size: 30px;
   position: absolute;
@@ -107,7 +105,6 @@ header {
   align-items: center;
   height: 100vh;
 }
-
 .title-wrap3 p {
   font-size: 25px;
   position: absolute;
@@ -121,9 +118,13 @@ header {
 }
 
 #About {
-  font-size: 20px;
+  font-size: 40px;
   color: blackr;
   text-align: center;
+}
+
+h2 {
+  font-size: 42px;
 }
 
 .container {
@@ -180,9 +181,13 @@ header {
 }
 
 h1 {
-  font-size: 40px;
+  font-size: 42px;
   font-weight: 900;
   text-align: center;
+}
+
+h2 {
+  font-size: 10px;
 }
 
 p {
@@ -225,10 +230,6 @@ p {
     width: 100%;
   }
 }
-<<<<<<< HEAD
-
-=======
->>>>>>> bda6ba6895d86fbaad3c6f498229f85df0ffeb3d
 .pet-livers {
   margin: 0 auto;
 }
@@ -255,7 +256,6 @@ p {
 .sponser {
   width: 1170px;
 }
-
 .sponser h1 {
   font-size: 80px;
   text-align: center;
@@ -266,9 +266,4 @@ p {
 .sponser h5 {
   font-size: 40px;
   text-align: center;
-<<<<<<< HEAD
-}
-/*# sourceMappingURL=style.css.map */
-=======
 }/*# sourceMappingURL=style.css.map */
->>>>>>> bda6ba6895d86fbaad3c6f498229f85df0ffeb3d

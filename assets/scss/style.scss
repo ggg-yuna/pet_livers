@@ -146,16 +146,20 @@ header {
 }
 
 #About {
-  font-size: 20px;
+  font-size: 40px;
   color: blackr;
   text-align: center;
 }
 
+h2{
+  font-size: 42px;
+}
 .container {
   display: flex;
   align-items: center;
   text-align: start;
   margin-top: 20px;
+  
 }
 
 #About .container {
@@ -201,6 +205,7 @@ header {
 }
 
 .container-wrap {
+
   max-width: 1170px;
   display: block;
   padding: 50px 0px;
@@ -210,15 +215,19 @@ header {
 
 
 h1 {
-  font-size: 40px;
+  font-size: 42px;
   font-weight: 900;
   text-align: center;
 }
 
+h2{
+font-size: 10px;
+}
 
 p {
   margin-top: 5px;
 }
+
 
 .about-right {
   display: flex;
