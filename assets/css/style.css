@@ -194,14 +194,17 @@ header {
   height: 569px;
 }
 
+.sponser {
+  width: 1170px;
+}
+
 .sponser h1 {
   font-size: 80px;
   text-align: center;
 }
 
 .sponser #animal-rights {
-  width: 800px;
-  height: 649px;
+  justify-items: center;
 }
 
 .sponser h5 {
