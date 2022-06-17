@@ -79,6 +79,7 @@ header {
   align-items: center;
   height: 100vh;
 }
+
 .title-wrap p {
   font-size: 30px;
   position: absolute;
@@ -93,6 +94,7 @@ header {
   align-items: center;
   height: 100vh;
 }
+
 .title-wrap2 p {
   font-size: 30px;
   position: absolute;
@@ -107,6 +109,7 @@ header {
   align-items: center;
   height: 100vh;
 }
+
 .title-wrap3 p {
   font-size: 25px;
   position: absolute;
@@ -227,7 +230,7 @@ p {
 form textarea {
   border-radius: 5px;
   margin: 20px auto;
-  border: solid 2px rgb(12, 12, 12);
+  border: solid 2px #0c0c0c;
   margin: 20px auto;
   display: block;
   width: 550px;
@@ -236,11 +239,11 @@ form textarea {
 
 .box1 {
   font-size: 20px;
-  color: rgb(46, 45, 45);
+  color: #2e2d2d;
   width: 400px;
   height: 40px;
   border-radius: 3px;
-  border: solid 2px rgb(12, 12, 12);
+  border: solid 2px #0c0c0c;
   margin: 20px auto;
   padding-left: 10px;
 }
@@ -272,14 +275,11 @@ button {
     width: 100%;
   }
 }
-<<<<<<< HEAD
-=======
 
 * {
   border: solid gold 1px;
 }
 
->>>>>>> 54ff10b5174ff316f5a3f0c2de0c11f1a5f25e3a
 .pet-livers {
   margin: 0 auto;
 }
@@ -318,21 +318,30 @@ button {
 .sponser {
   width: 1170px;
 }
+
 .sponser h1 {
   font-size: 80px;
-  text-align: center;
 }
 
-.sponser #animal-rights {
-  justify-items: center;
+.sponser .sponser1 {
+  margin: 0 auto;
+}
+
+.sponser .sponser1 #animal-rights {
+  width: 94%;
+  margin: 0 auto;
+}
+
+.sponser .sponser2 {
+  margin: 0 auto;
+}
+
+.sponser .sponser2 #animal-foundation {
+  width: 38.7%;
 }
 
 .sponser h5 {
   font-size: 40px;
   text-align: center;
-<<<<<<< HEAD
-}/*# sourceMappingURL=style.css.map */
-=======
 }
 /*# sourceMappingURL=style.css.map */
->>>>>>> 54ff10b5174ff316f5a3f0c2de0c11f1a5f25e3a
