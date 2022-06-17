@@ -1,255 +1,314 @@
-.pet-livers {
-  h1 {
-    font-style: normal;
-    font-weight: 400;
+// .pet-livers {
+//   h1 {
+//     font-style: normal;
+//     font-weight: 400;
+//     font-size: 80px;
+//     line-height: 95px;
+
+//     color: #000000;
+
+//     text-align: center;
+//   }
+
+//   .container-livers {
+//     background-color: #000000;
+//     width: 2000px;
+//     height: 1350px;
+//   }
+
+//   .livers {
+//     width: 382px;
+//     height: 569px;
+//     background: #FFFFFF;
+//     img{
+//       width: 370px;
+//       height: 347px;
+//     }
+
+//     #Alice{
+//       width: 382px;
+//       height: 569px;
+//       border: 3.79px solid #EA5555;
+//     }
+
+//     #Nancy{
+//       border: 4.42px solid #A817FB;
+//     }
+
+//     #Mat{
+//       border: 3.15px solid #F0C83B;
+//     }
+
+//     #Oscar{
+//       border: 3.79px solid #E16A6E;
+//     }
+
+//     #Nataly{
+//       border: 3.15px solid #ED61F6;
+//     }
+
+//     #Zach{
+//       border: 3.79px solid #52F1BF;
+//     }
+
+//     #John{
+//       border: 3.79px solid #55B0EA;
+//     }
+
+//     #Simona{
+//       border: 3.79px solid #FFB017;
+//     }
+    
+//   }
+
+// }
+
+
+
+
+
+
+
+
+// .sponser {
+//   // コンテンツ幅
+//   max-width: 1170px;
+//   margin: 0 auto;
+
+
+//   h1 {
+//     font-style: normal;
+//     font-weight: 700;
+//     font-size: 80px;
+//     line-height: 116px;
+
+//     color: #000000;
+
+//     text-align: center;
+//   }
+
+//   .container-sponser {
+//     margin: 0 auto;
+
+//     #animal-rights {
+//       width: 1410px;
+//       height: 649px;
+
+//       margin: 0 auto;
+//     }
+
+//     #animal-foundation {
+//       width: 580px;
+//       height: 457px;
+
+//       margin: 0 auto;
+//     }
+//   }
+
+//   h5 {
+//     font-style: normal;
+//     font-weight: 400;
+//     font-size: 40px;
+//     line-height: 47px;
+
+//     color: #000000;
+
+//     text-align: center;
+//   }
+
+//   // sponser
+// }
+
+// .customer-voice {
+//   max-width: 1170px;
+
+//   h1 {
+//     font-family: 'ABeeZee';
+//     font-style: normal;
+//     font-weight: 400;
+//     font-size: 40px;
+//     line-height: 47px;
+
+//     color: #000000;
+
+//     text-align: center;
+//   }
+
+//   .container-customer-voice {
+//     display: flex;
+//     margin: 0 auto;
+
+//     img {
+//       width: 639px;
+//       height: 881px;
+
+//       box-shadow: 15px 15px 0px 0 #E7AFC3;
+//       ;
+
+//     }
+
+//     .voice-right {
+//       h4 {
+//         font-style: normal;
+//         font-weight: 400;
+//         font-size: 32px;
+//         line-height: 38px;
+//         /* identical to box height */
+
+//         color: #000000;
+//       }
+
+//       h3 {
+//         font-style: normal;
+//         font-weight: 400;
+//         font-size: 50px;
+//         line-height: 59px;
+
+//         color: #000000;
+//       }
+
+//       p {
+//         font-style: normal;
+//         font-weight: 400;
+//         font-size: 36px;
+//         line-height: 43px;
+//         letter-spacing: -0.03em;
+
+//         color: #000000;
+//       }
+//     }
+//   }
+
+
+
+//   // customer-voice
+// }
+
+// .company {
+//   max-width: 1170px;
+//   margin: 0 auto;
+
+//   h1 {
+//     font-style: normal;
+//     font-weight: 700;
+//     font-size: 80px;
+//     line-height: 116px;
+
+//     color: #000000;
+
+//     text-align: center;
+//   }
+
+//   .container-company {
+//     margin-left: 250px;
+
+//     display: flex;
+//     justify-content: center;
+
+//     .company-left {
+//       margin-left: 250px;
+
+//       h2 {
+
+//         font-style: normal;
+//         // font-weight: 400;
+//         font-size: 96px;
+//         // line-height: 113px;
+//         // letter-spacing: -0.02em;
+
+//         color: #000000;
+
+//         margin-left: 250px;
+//       }
+
+//       h3 {
+//         font-style: normal;
+//         font-weight: 400;
+//         font-size: 50px;
+//         line-height: 59px;
+//         /* identical to box height */
+
+
+//         color: #000000;
+//       }
+
+//       p {
+//         font-style: normal;
+//         font-weight: 400;
+//         font-size: 40px;
+//         line-height: 47px;
+
+//         color: #000000;
+//       }
+//     }
+
+//     .company-right {
+//       iframe {
+//         width: 787px;
+//         height: 723px;
+//         margin-right: 209px;
+//       }
+//     }
+//   }
+
+//   // company
+// }
+
+
+// ----自分で作成
+.pet-livers{
+  // max-width: 1170px;
+
+ margin: 0 auto; 
+
+  h1{
     font-size: 80px;
-    line-height: 95px;
-
-    color: #000000;
-
     text-align: center;
   }
 
-  .container-livers {
-    background-color: #000000;
-    width: 2000px;
+  .container-livers{
+    // width: 1050px;
     height: 1350px;
+    margin: 61px 0x 0px 0px;
+    background-color: black;
+
+   .box-livers1{
+     display: flex;
+   } 
+
+   .box-livers2{
+     display: flex;
+   } 
+
+   .livers{
+     width: 382px;
+     height: 569px;
+
+   }
+
   }
 
-  .livers {
-    width: 382px;
-    height: 569px;
-    background: #FFFFFF;
-    img{
-      width: 370px;
-      height: 347px;
-    }
 
-    #Alice{
-      width: 382px;
-      height: 569px;
-      border: 3.79px solid #EA5555;
-    }
-
-    #Nancy{
-      border: 4.42px solid #A817FB;
-    }
-
-    #Mat{
-      border: 3.15px solid #F0C83B;
-    }
-
-    #Oscar{
-      border: 3.79px solid #E16A6E;
-    }
-
-    #Nataly{
-      border: 3.15px solid #ED61F6;
-    }
-
-    #Zach{
-      border: 3.79px solid #52F1BF;
-    }
-
-    #John{
-      border: 3.79px solid #55B0EA;
-    }
-
-    #Simona{
-      border: 3.79px solid #FFB017;
-    }
-    
-  }
-
+  // pet-livers
 }
 
-
-
-
-
-
-
-
-.sponser {
-  // コンテンツ幅
-  max-width: 1170px;
-  margin: 0 auto;
-
-
-  h1 {
-    font-style: normal;
-    font-weight: 700;
+// sponser
+.sponser{
+  h1{
     font-size: 80px;
-    line-height: 116px;
-
-    color: #000000;
-
     text-align: center;
   }
 
-  .container-sponser {
-    margin: 0 auto;
-
-    #animal-rights {
-      width: 1410px;
-      height: 649px;
-
-      margin: 0 auto;
-    }
-
-    #animal-foundation {
-      width: 580px;
-      height: 457px;
-
-      margin: 0 auto;
-    }
+  #animal-rights{
+    width: 800px;
+    height: 649px;
   }
 
-  h5 {
-    font-style: normal;
-    font-weight: 400;
+
+  h5{
     font-size: 40px;
-    line-height: 47px;
-
-    color: #000000;
-
     text-align: center;
   }
 
   // sponser
-}
-
-.customer-voice {
-  max-width: 1170px;
-
-  h1 {
-    font-family: 'ABeeZee';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 40px;
-    line-height: 47px;
-
-    color: #000000;
-
-    text-align: center;
-  }
-
-  .container-customer-voice {
-    display: flex;
-    margin: 0 auto;
-
-    img {
-      width: 639px;
-      height: 881px;
-
-      box-shadow: 15px 15px 0px 0 #E7AFC3;
-      ;
-
-    }
-
-    .voice-right {
-      h4 {
-        font-style: normal;
-        font-weight: 400;
-        font-size: 32px;
-        line-height: 38px;
-        /* identical to box height */
-
-        color: #000000;
-      }
-
-      h3 {
-        font-style: normal;
-        font-weight: 400;
-        font-size: 50px;
-        line-height: 59px;
-
-        color: #000000;
-      }
-
-      p {
-        font-style: normal;
-        font-weight: 400;
-        font-size: 36px;
-        line-height: 43px;
-        letter-spacing: -0.03em;
-
-        color: #000000;
-      }
-    }
-  }
-
-
-
-  // customer-voice
-}
-
-.company {
-  max-width: 1170px;
-  margin: 0 auto;
-
-  h1 {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 80px;
-    line-height: 116px;
-
-    color: #000000;
-
-    text-align: center;
-  }
-
-  .container-company {
-    margin-left: 250px;
-
-    display: flex;
-    justify-content: center;
-
-    .company-left {
-      margin-left: 250px;
-
-      h2 {
-
-        font-style: normal;
-        // font-weight: 400;
-        font-size: 96px;
-        // line-height: 113px;
-        // letter-spacing: -0.02em;
-
-        color: #000000;
-
-        margin-left: 250px;
-      }
-
-      h3 {
-        font-style: normal;
-        font-weight: 400;
-        font-size: 50px;
-        line-height: 59px;
-        /* identical to box height */
-
-
-        color: #000000;
-      }
-
-      p {
-        font-style: normal;
-        font-weight: 400;
-        font-size: 40px;
-        line-height: 47px;
-
-        color: #000000;
-      }
-    }
-
-    .company-right {
-      iframe {
-        width: 787px;
-        height: 723px;
-        margin-right: 209px;
-      }
-    }
-  }
-
-  // company
 }
