@@ -349,11 +349,11 @@ section {
 .sponser .sponser2 {
   padding-left: 49.2%;
   padding-right: 45.3%;
-  margin-top: 83px;
 }
 
 .sponser .sponser2 #animal-foundation {
-  width: 38.7%;
+  width: 300px;
+  margin: 0 auto;
 }
 
 .sponser h5 {
@@ -413,5 +413,15 @@ section {
 
 .company .company-right iframe {
   width: 550px;
+}
+
+@media screen and (max-width: 767px) {
+  .sponser #animal-rights {
+    padding-left: 15.9%;
+    padding-right: 14.7%;
+  }
+  .sponser h5 {
+    display: none;
+  }
 }
 /*# sourceMappingURL=style.css.map */

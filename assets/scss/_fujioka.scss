@@ -323,7 +323,6 @@ section{
   width: 1170px;
   margin: 0 auto;
 
-
   h1{
     font-size: 50px;
   }
@@ -343,18 +342,25 @@ section{
   }
 
 .sponser2{
-  // margin: 0 auto;
-  // padding-top: 83px;
-  // 739/1501
+  // // margin: 0 auto;
+  // // padding-top: 83px;
+  // // 739/1501
   padding-left: 49.2%;
-  // 681/1501
+  // // 681/1501
   padding-right: 45.3%;
-  margin-top: 83px;
+  // margin-top: 83px;
 
  #animal-foundation{
   //  580/1501
-   width: 38.7%;
-  //  margin: 0 auto;
+   width: 300px;
+   margin: 0 auto;
+
+  // padding-top: 83px;
+  // 739/1501
+  // padding-left: 49.2%;
+  // 681/1501
+  // padding-right: 45.3%;
+  // margin-top: 83px;
  }
 }
 
@@ -441,4 +447,32 @@ width:550px
     width:550px
   }
 }
+}
+
+
+// レスポンシブ対応
+@media screen and (max-width: 767px) {
+
+.sponser{
+  #animal-rights{
+    // 175/1100
+    padding-left: 15.9%;
+    // 162/1100
+    padding-right: 14.7%;
+  }
+
+  #animal-foundation{
+    // 414/1100
+    // padding-left: 37.7%;
+    // 372/1100
+    // padding-right: 33.8%;
+  }
+
+  h5{
+    display: none;
+  }
+
+}  
+
+// レスポンシブ大外のカッコ
 }
