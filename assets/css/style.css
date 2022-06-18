@@ -276,10 +276,6 @@ button {
   }
 }
 
-* {
-  border: solid gold 1px;
-}
-
 .pet-livers {
   margin: 0 auto;
 }
