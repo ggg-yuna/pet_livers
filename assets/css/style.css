@@ -1,4 +1,9 @@
+<<<<<<< HEAD
 nav {
+=======
+@charset "UTF-8";
+header {
+>>>>>>> 6fce79fba192a62d9ce49aa98c52002704748ebf
   display: flex;
   justify-content: flex-end;
 }
@@ -83,6 +88,16 @@ nav {
   flex-direction: column;
   height: 100vh;
 }
+<<<<<<< HEAD
+=======
+
+.title-wrap p {
+  font-size: 30px;
+  position: absolute;
+  top: 80px;
+  left: 570px;
+}
+>>>>>>> 6fce79fba192a62d9ce49aa98c52002704748ebf
 
 .text-container {
   font-size: 50px;
@@ -92,8 +107,28 @@ nav {
   align-items: center;
   height: 100vh;
 }
+<<<<<<< HEAD
 
 .text-container1 {
+=======
+
+.title-wrap2 p {
+  font-size: 30px;
+  position: absolute;
+  top: 100px;
+  left: 570px;
+}
+
+.title-wrap3 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+
+.title-wrap3 p {
+>>>>>>> 6fce79fba192a62d9ce49aa98c52002704748ebf
   font-size: 25px;
   text-align: center;
 }
@@ -186,7 +221,15 @@ p {
   box-shadow: 15px 15px 0px 0 #9067E9;
 }
 
+<<<<<<< HEAD
 input, textarea {
+=======
+form textarea {
+  border-radius: 5px;
+  margin: 20px auto;
+  border: solid 2px #0c0c0c;
+  margin: 20px auto;
+>>>>>>> 6fce79fba192a62d9ce49aa98c52002704748ebf
   display: block;
   width: 400px;
   padding: 8px;
@@ -195,6 +238,7 @@ input, textarea {
   margin-bottom: 8px;
 }
 
+<<<<<<< HEAD
 .form-btn {
   background-color: black;
   color: white;
@@ -206,6 +250,17 @@ input, textarea {
   cursor: pointer;
   text-align: center;
   font-size: 20px;
+=======
+.box1 {
+  font-size: 20px;
+  color: #2e2d2d;
+  width: 400px;
+  height: 40px;
+  border-radius: 3px;
+  border: solid 2px #0c0c0c;
+  margin: 20px auto;
+  padding-left: 10px;
+>>>>>>> 6fce79fba192a62d9ce49aa98c52002704748ebf
 }
 
 .contact-wrap {
@@ -257,6 +312,7 @@ input, textarea {
     width: 100%;
   }
 }
+<<<<<<< HEAD
 .form-btn {
   margin-top: 24px;
   padding-top: 8px;
@@ -264,16 +320,28 @@ input, textarea {
   width: 160px;
   font-size: 16px;
 }
+=======
+>>>>>>> 6fce79fba192a62d9ce49aa98c52002704748ebf
 
-* {
-  border: solid gold 1px;
+section {
+  opacity: 0;
+  visibility: hidden;
+  transition: 1s;
+  transform: translateY(30px);
+}
+
+/*アニメーション要素までスクロールした時のスタイル*/
+.active {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
 }
 
 .pet-livers {
   margin: 0 auto;
 }
 .pet-livers h1 {
-  font-size: 80px;
+  font-size: 50px;
   text-align: center;
 }
 .pet-livers .container-livers {
@@ -301,15 +369,108 @@ input, textarea {
 
 .sponser {
   width: 1170px;
+  margin: 0 auto;
 }
+
 .sponser h1 {
-  font-size: 80px;
-  text-align: center;
+  font-size: 50px;
 }
+<<<<<<< HEAD
 .sponser #animal-rights {
   justify-items: center;
+=======
+
+.sponser .sponser1 {
+  margin: 0 auto;
+  padding-left: 19.8%;
+  padding-right: 19.5%;
+}
+
+.sponser .sponser1 #animal-rights {
+  width: 94%;
+  margin: 0 auto;
+}
+
+.sponser .sponser2 {
+  padding-left: 49.2%;
+  padding-right: 45.3%;
+}
+
+.sponser .sponser2 #animal-foundation {
+  width: 300px;
+  margin: 0 auto;
+>>>>>>> 6fce79fba192a62d9ce49aa98c52002704748ebf
 }
 .sponser h5 {
-  font-size: 40px;
+  font-size: 26px;
   text-align: center;
+<<<<<<< HEAD
 }/*# sourceMappingURL=style.css.map */
+=======
+}
+
+.customer-voice {
+  margin: 0 auto;
+  width: 1170px;
+}
+
+.customer-voice .container-customer-voice {
+  display: flex;
+}
+
+.customer-voice .container-customer-voice .voice-left img {
+  width: 400px;
+  box-shadow: -15px 15px 0 #E7AFC3;
+}
+
+.customer-voice .container-customer-voice .voice-right {
+  width: 600px;
+  margin-top: 130px;
+  margin-left: 135px;
+}
+
+.customer-voice .container-customer-voice .voice-right h3 {
+  font-size: 20px;
+}
+
+.customer-voice .container-customer-voice .voice-right p {
+  width: 350px;
+}
+
+.company {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.company .container-company {
+  display: flex;
+}
+
+.company .container-company h2 {
+  font-size: 36px;
+}
+
+.company .container-company h3 {
+  font-size: 20px;
+}
+
+.company .company-left {
+  padding-left: 19.1%;
+  width: 550px;
+}
+
+.company .company-right iframe {
+  width: 550px;
+}
+
+@media screen and (max-width: 767px) {
+  .sponser #animal-rights {
+    padding-left: 15.9%;
+    padding-right: 14.7%;
+  }
+  .sponser h5 {
+    display: none;
+  }
+}
+/*# sourceMappingURL=style.css.map */
+>>>>>>> 6fce79fba192a62d9ce49aa98c52002704748ebf
