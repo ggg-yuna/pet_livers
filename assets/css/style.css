@@ -26,7 +26,8 @@ nav {
   padding: 20px;
   left: 100px;
   top: 80px;
-  width: 1170px;
+  width: 100%;
+  height: auto;
 }
 
 .container {
@@ -35,6 +36,8 @@ nav {
 }
 
 .kv-img1 {
+  width: 100%;
+  height: auto;
   top: 95px;
   left: 40px;
   bottom: 10px;
@@ -94,8 +97,8 @@ nav {
 }
 
 .text-container1 {
-  font-size: 25px;
   text-align: center;
+  font-size: 25px;
 }
 
 .about-right {
@@ -306,10 +309,11 @@ section {
 .pet-livers h1 {
   font-size: 50px;
   text-align: center;
+  margin: 20px 0px 20px 0px;
 }
 
 .pet-livers .container-livers {
-  background-color: gray;
+  background-color: black;
 }
 
 .pet-livers .container-livers .box-livers1 {
@@ -332,6 +336,40 @@ section {
 .pet-livers .container-livers .livers {
   width: 24.1%;
   border: solid pink 1px;
+  padding-top: 22px;
+  background-color: white;
+}
+
+.pet-livers .container-livers #Alice {
+  border: 3.79px solid #EA5555;
+}
+
+.pet-livers .container-livers #Nancy {
+  border: 4.42px solid #A817FB;
+}
+
+.pet-livers .container-livers #Mat {
+  border: 3.15px solid #F0C83B;
+}
+
+.pet-livers .container-livers #Oscar {
+  border: 3.79px solid #E16A6E;
+}
+
+.pet-livers .container-livers #Nataly {
+  border: 3.79px solid #E16A6E;
+}
+
+.pet-livers .container-livers #Zach {
+  border: 3.15px solid #ED61F6;
+}
+
+.pet-livers .container-livers #John {
+  border: 3.79px solid #52F1BF;
+}
+
+.pet-livers .container-livers #Simona {
+  border: 3.79px solid #55B0EA;
 }
 
 .sponser {
@@ -340,7 +378,9 @@ section {
 }
 
 .sponser h1 {
-  font-size: 50px;
+  font-size: 46px;
+  text-align: center;
+  margin: 20px 0px 20px 0px;
 }
 
 .sponser .sponser1 {
@@ -369,9 +409,42 @@ section {
   width: 1170px;
 }
 
+.customer-voice .deco-voice {
+  position: relative;
+}
+
+.customer-voice .deco-voice img {
+  position: absolute;
+}
+
+.customer-voice .deco-voice #left-top {
+  top: -40px;
+  left: -100px;
+  width: 8%;
+}
+
+.customer-voice .deco-voice #left-bottom {
+  top: 350px;
+  left: -100px;
+  width: 17.8%;
+}
+
+.customer-voice .deco-voice #right-top {
+  left: 1000px;
+  top: -40px;
+  width: 19.5%;
+}
+
+.customer-voice .deco-voice #right-bottom {
+  top: 350px;
+  left: 1000px;
+  width: 11%;
+}
+
 .customer-voice h1 {
-  font-size: 40px;
+  font-size: 46px;
   text-align: center;
+  margin: 20px 0px 20px 0px;
 }
 
 .customer-voice .container-customer-voice {
@@ -407,8 +480,9 @@ section {
 }
 
 .company h1 {
-  font-size: 40px;
+  font-size: 46px;
   text-align: center;
+  margin: 20px 0px 20px 0px;
 }
 
 .company .container-company {

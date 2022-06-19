@@ -282,13 +282,14 @@ section{
   h1{
     font-size: 50px;
     text-align: center;
+    margin: 20px 0px 20px 0px;
   }
 
   .container-livers{
     // width: 1050px;
     // height: 1000px;
 
-    background-color: gray;
+    background-color: black;
 
    .box-livers1{
      display: flex;
@@ -311,6 +312,40 @@ section{
     width : 24.1%;
     // height :28.4%;
     border: solid pink 1px;
+    padding-top: 22px;
+    background-color: white;
+   }
+
+   #Alice{
+    border: 3.79px solid #EA5555;
+   }
+
+   #Nancy{
+    border: 4.42px solid #A817FB;
+   }
+
+   #Mat{
+    border: 3.15px solid #F0C83B;
+   }
+
+   #Oscar{
+    border: 3.79px solid #E16A6E;
+  }
+
+   #Nataly{
+    border: 3.79px solid #E16A6E;
+   }
+
+   #Zach{
+    border: 3.15px solid #ED61F6;
+   }
+
+   #John{
+    border: 3.79px solid #52F1BF;
+   }
+
+   #Simona{
+    border: 3.79px solid #55B0EA;
    }
   }
 
@@ -324,7 +359,9 @@ section{
   margin: 0 auto;
 
   h1{
-    font-size: 50px;
+    font-size: 46px;
+    text-align: center;
+    margin: 20px 0px 20px 0px;
   }
 
 .sponser1{
@@ -377,10 +414,46 @@ section{
 .customer-voice{
   margin: 0 auto;
   width: 1170px;
+  // position: relative;
+
+  .deco-voice{
+    position: relative;
+
+    img{
+      position: absolute;
+    }
+
+    #left-top{
+      top: -40px;
+      left: -100px;
+      width: 8%;
+    }
+
+    #left-bottom{
+      top: 350px;
+      left: -100px;
+      width: 17.8%;
+    }
+
+    #right-top{
+      left: 1000px;
+      top: -40px;
+      width: 19.5%;
+    }
+
+    #right-bottom{
+      top: 350px;
+      left: 1000px;
+      width: 11%;
+    }
+  }
+
+
 
 h1{
-  font-size: 40px;
+  font-size: 46px;
   text-align: center;
+  margin: 20px 0px 20px 0px;
 }
 
 .container-customer-voice{
@@ -430,8 +503,9 @@ width: 350px;
   width:1170px;
   margin: 0 auto;
   h1{
-    font-size: 40px;
+    font-size: 46px;
     text-align: center;
+    margin: 20px 0px 20px 0px;
   }
 
  .container-company{
@@ -486,7 +560,7 @@ width:550px
   h5{
     display: none;
   }
-
+  // sponser
 }  
 
 // レスポンシブ大外のカッコ
