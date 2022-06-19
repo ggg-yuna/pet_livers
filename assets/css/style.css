@@ -1,9 +1,10 @@
-<<<<<<< HEAD
+
 nav {
-=======
-@charset "UTF-8";
+
+}
+
 header {
->>>>>>> 6fce79fba192a62d9ce49aa98c52002704748ebf
+
   display: flex;
   justify-content: flex-end;
 }
@@ -88,8 +89,7 @@ header {
   flex-direction: column;
   height: 100vh;
 }
-<<<<<<< HEAD
-=======
+
 
 .title-wrap p {
   font-size: 30px;
@@ -97,7 +97,7 @@ header {
   top: 80px;
   left: 570px;
 }
->>>>>>> 6fce79fba192a62d9ce49aa98c52002704748ebf
+
 
 .text-container {
   font-size: 50px;
@@ -107,10 +107,11 @@ header {
   align-items: center;
   height: 100vh;
 }
-<<<<<<< HEAD
+
 
 .text-container1 {
-=======
+
+}
 
 .title-wrap2 p {
   font-size: 30px;
@@ -128,8 +129,7 @@ header {
 }
 
 .title-wrap3 p {
->>>>>>> 6fce79fba192a62d9ce49aa98c52002704748ebf
-  font-size: 25px;
+
   text-align: center;
 }
 
@@ -221,15 +221,13 @@ p {
   box-shadow: 15px 15px 0px 0 #9067E9;
 }
 
-<<<<<<< HEAD
-input, textarea {
-=======
+
 form textarea {
   border-radius: 5px;
   margin: 20px auto;
   border: solid 2px #0c0c0c;
   margin: 20px auto;
->>>>>>> 6fce79fba192a62d9ce49aa98c52002704748ebf
+
   display: block;
   width: 400px;
   padding: 8px;
@@ -238,7 +236,7 @@ form textarea {
   margin-bottom: 8px;
 }
 
-<<<<<<< HEAD
+
 .form-btn {
   background-color: black;
   color: white;
@@ -250,7 +248,8 @@ form textarea {
   cursor: pointer;
   text-align: center;
   font-size: 20px;
-=======
+}
+
 .box1 {
   font-size: 20px;
   color: #2e2d2d;
@@ -260,7 +259,7 @@ form textarea {
   border: solid 2px #0c0c0c;
   margin: 20px auto;
   padding-left: 10px;
->>>>>>> 6fce79fba192a62d9ce49aa98c52002704748ebf
+
 }
 
 .contact-wrap {
@@ -312,7 +311,7 @@ form textarea {
     width: 100%;
   }
 }
-<<<<<<< HEAD
+
 .form-btn {
   margin-top: 24px;
   padding-top: 8px;
@@ -320,8 +319,7 @@ form textarea {
   width: 160px;
   font-size: 16px;
 }
-=======
->>>>>>> 6fce79fba192a62d9ce49aa98c52002704748ebf
+
 
 section {
   opacity: 0;
@@ -375,10 +373,10 @@ section {
 .sponser h1 {
   font-size: 50px;
 }
-<<<<<<< HEAD
+
 .sponser #animal-rights {
   justify-items: center;
-=======
+}
 
 .sponser .sponser1 {
   margin: 0 auto;
@@ -399,15 +397,15 @@ section {
 .sponser .sponser2 #animal-foundation {
   width: 300px;
   margin: 0 auto;
->>>>>>> 6fce79fba192a62d9ce49aa98c52002704748ebf
+
 }
 .sponser h5 {
   font-size: 26px;
   text-align: center;
-<<<<<<< HEAD
+
 }/*# sourceMappingURL=style.css.map */
-=======
-}
+
+
 
 .customer-voice {
   margin: 0 auto;
@@ -473,4 +471,4 @@ section {
   }
 }
 /*# sourceMappingURL=style.css.map */
->>>>>>> 6fce79fba192a62d9ce49aa98c52002704748ebf
+
