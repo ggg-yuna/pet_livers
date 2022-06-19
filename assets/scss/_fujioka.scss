@@ -256,9 +256,9 @@
 
 
 // ----自分で作成
-*{
-  border: solid gold 1px;
-}
+// *{
+//   border: solid gold 1px;
+// }
 
 // アニメーション
 section{
@@ -348,8 +348,6 @@ section{
     border: 3.79px solid #55B0EA;
    }
   }
-
-
   // pet-livers
 }
 
@@ -448,8 +446,6 @@ section{
     }
   }
 
-
-
 h1{
   font-size: 46px;
   text-align: center;
@@ -460,8 +456,6 @@ h1{
   display: flex;
 }
 }
-
-
 
 .container-customer-voice{
   display: flex;
@@ -511,7 +505,6 @@ width: 350px;
  .container-company{
    display: flex;
 
-
    h2{
    font-size: 36px;
    }
@@ -541,8 +534,43 @@ width:550px
 
 // レスポンシブ対応
 @media screen and (max-width: 767px) {
+  // pet-livers
+  .pet-livers{
+    width: 1100px;
 
+    h1{
+      font-size: 40px;
+      text-align: center;
+    }
+
+    .container-livers{
+      height: 8835px;
+    }
+
+    .box-livers1{
+      display: block;
+      // height: 4420px;
+    }
+
+    .box-livers2{
+      display: block;
+      // height: 4420px;
+    }
+
+
+  // pet-livers
+  }
+
+
+  // sponser
 .sponser{
+  width: 1100px;
+
+  h1{
+    font-size: 40px;
+    text-align: center;
+  }
+
   #animal-rights{
     // 175/1100
     padding-left: 15.9%;
@@ -551,10 +579,7 @@ width:550px
   }
 
   #animal-foundation{
-    // 414/1100
-    // padding-left: 37.7%;
-    // 372/1100
-    // padding-right: 33.8%;
+    margin: 0 auto;
   }
 
   h5{
@@ -562,6 +587,58 @@ width:550px
   }
   // sponser
 }  
+
+// customer-voice
+.customer-voice{
+  width: 1100px;
+
+  h1{
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .deco-voice{
+    display: none;
+  }
+
+.container-customer-voice{
+  display: block;
+  margin: 0 auto;
+}
+
+.voice-left{
+}
+
+// customer-voice
+}
+
+// company
+.company{
+  width: 1100px;
+
+  h1{
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .container-company{
+    display: block;
+    margin: 0 auto;
+  }
+
+  .company-left{
+    padding-left: 0px;
+    margin: 0 auto;
+  }
+
+  .company-right{
+    padding-top: 40px;
+    
+    margin: 0 auto;
+  }
+// company 
+}
+
 
 // レスポンシブ大外のカッコ
 }
