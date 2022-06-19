@@ -69,8 +69,6 @@ nav {
   bottom: 10px;
   background-image: url(../../img/kv_03_pc.jpg);
   background-size:contain;
- 
-
 }
 
 .kv-img2 {
@@ -115,9 +113,6 @@ nav {
   font-weight: bold;
   color: black;
   text-align: center;
-
-  // top: 420px;
-  // left: 570px;
 }
 
 
@@ -144,7 +139,7 @@ nav {
 .text-container1{
   text-align: center;
   font-size: 25px;
-  
+
   // position: relative;
   // display: flex;
   // flex-direction: column;
@@ -413,4 +408,3 @@ input,textarea {
 // @import "../../fujioka";
 
 @import "../scss/fujioka";
-
