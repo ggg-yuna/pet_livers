@@ -50,9 +50,9 @@ nav {
   left: 100px;
   //上からの位置指定
   top:80px;    
-  width: 1170px;
-  // height: auto;
-  //  background-size:contain;
+  width: 100%;
+  height: auto;
+  // background-size:contain;
   
 }
 
@@ -62,7 +62,8 @@ nav {
 }
 
 .kv-img1 {
-  
+  width: 100%;
+  height: auto;
   top: 95px;
   left: 40px;
   bottom: 10px;
@@ -141,8 +142,9 @@ nav {
 
 
 .text-container1{
-  font-size: 25px;
   text-align: center;
+  font-size: 25px;
+  
   // position: relative;
   // display: flex;
   // flex-direction: column;
@@ -410,4 +412,5 @@ input,textarea {
 
 // @import "../../fujioka";
 
-@import "../scss/fujioka"
+@import "../scss/fujioka";
+
