@@ -538,6 +538,7 @@ section {
   }
   .customer-voice {
     width: 1100px;
+    margin: 0 auto;
   }
   .customer-voice h1 {
     font-size: 40px;
@@ -548,6 +549,9 @@ section {
   }
   .customer-voice .container-customer-voice {
     display: block;
+    margin: 0 auto;
+  }
+  .customer-voice .voice-left {
     margin: 0 auto;
   }
   .company {
