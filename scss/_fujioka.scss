@@ -256,9 +256,9 @@
 
 
 // ----自分で作成
-*{
-  border: solid gold 1px;
-}
+// *{
+//   border: solid gold 1px;
+// }
 
 // アニメーション
 section{
@@ -282,13 +282,14 @@ section{
   h1{
     font-size: 50px;
     text-align: center;
+    margin: 20px 0px 20px 0px;
   }
 
   .container-livers{
     // width: 1050px;
     // height: 1000px;
 
-    background-color: gray;
+    background-color: black;
 
    .box-livers1{
      display: flex;
@@ -311,10 +312,42 @@ section{
     width : 24.1%;
     // height :28.4%;
     border: solid pink 1px;
+    padding-top: 22px;
+    background-color: white;
    }
+
+   #Alice{
+    border: 3.79px solid #EA5555;
+   }
+
+   #Nancy{
+    border: 4.42px solid #A817FB;
+   }
+
+   #Mat{
+    border: 3.15px solid #F0C83B;
+   }
+
+   #Oscar{
+    border: 3.79px solid #E16A6E;
   }
 
+   #Nataly{
+    border: 3.79px solid #E16A6E;
+   }
 
+   #Zach{
+    border: 3.15px solid #ED61F6;
+   }
+
+   #John{
+    border: 3.79px solid #52F1BF;
+   }
+
+   #Simona{
+    border: 3.79px solid #55B0EA;
+   }
+  }
   // pet-livers
 }
 
@@ -324,7 +357,9 @@ section{
   margin: 0 auto;
 
   h1{
-    font-size: 50px;
+    font-size: 46px;
+    text-align: center;
+    margin: 20px 0px 20px 0px;
   }
 
 .sponser1{
@@ -377,18 +412,50 @@ section{
 .customer-voice{
   margin: 0 auto;
   width: 1170px;
+  // position: relative;
+
+  .deco-voice{
+    position: relative;
+
+    img{
+      position: absolute;
+    }
+
+    #left-top{
+      top: -40px;
+      left: -100px;
+      width: 8%;
+    }
+
+    #left-bottom{
+      top: 350px;
+      left: -100px;
+      width: 17.8%;
+    }
+
+    #right-top{
+      left: 1000px;
+      top: -40px;
+      width: 19.5%;
+    }
+
+    #right-bottom{
+      top: 350px;
+      left: 1000px;
+      width: 11%;
+    }
+  }
 
 h1{
-  font-size: 40px;
+  font-size: 46px;
   text-align: center;
+  margin: 20px 0px 20px 0px;
 }
 
 .container-customer-voice{
   display: flex;
 }
 }
-
-
 
 .container-customer-voice{
   display: flex;
@@ -430,13 +497,13 @@ width: 350px;
   width:1170px;
   margin: 0 auto;
   h1{
-    font-size: 40px;
+    font-size: 46px;
     text-align: center;
+    margin: 20px 0px 20px 0px;
   }
 
  .container-company{
    display: flex;
-
 
    h2{
    font-size: 36px;
@@ -467,8 +534,43 @@ width:550px
 
 // レスポンシブ対応
 @media screen and (max-width: 767px) {
+  // pet-livers
+  .pet-livers{
+    width: 1100px;
 
+    h1{
+      font-size: 40px;
+      text-align: center;
+    }
+
+    .container-livers{
+      height: 8835px;
+    }
+
+    .box-livers1{
+      display: block;
+      // height: 4420px;
+    }
+
+    .box-livers2{
+      display: block;
+      // height: 4420px;
+    }
+
+
+  // pet-livers
+  }
+
+
+  // sponser
 .sponser{
+  width: 1100px;
+
+  h1{
+    font-size: 40px;
+    text-align: center;
+  }
+
   #animal-rights{
     // 175/1100
     padding-left: 15.9%;
@@ -477,17 +579,66 @@ width:550px
   }
 
   #animal-foundation{
-    // 414/1100
-    // padding-left: 37.7%;
-    // 372/1100
-    // padding-right: 33.8%;
+    margin: 0 auto;
   }
 
   h5{
     display: none;
   }
-
+  // sponser
 }  
+
+// customer-voice
+.customer-voice{
+  width: 1100px;
+
+  h1{
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .deco-voice{
+    display: none;
+  }
+
+.container-customer-voice{
+  display: block;
+  margin: 0 auto;
+}
+
+.voice-left{
+}
+
+// customer-voice
+}
+
+// company
+.company{
+  width: 1100px;
+
+  h1{
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .container-company{
+    display: block;
+    margin: 0 auto;
+  }
+
+  .company-left{
+    padding-left: 0px;
+    margin: 0 auto;
+  }
+
+  .company-right{
+    padding-top: 40px;
+    
+    margin: 0 auto;
+  }
+// company 
+}
+
 
 // レスポンシブ大外のカッコ
 }
